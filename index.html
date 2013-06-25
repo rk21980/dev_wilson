@@ -2,8 +2,25 @@
 <html>
 	<head>
 		<title>wilson [dev]</title>
+		<!-- styles -->
+		<link href='http://fonts.googleapis.com/css?family=Cherry+Swash|Noticia+Text:400,700' rel='stylesheet' type='text/css'>
+		<link href='css/styles.css' rel='stylesheet' type='text/css'>
+		<link href='css/layout.css' rel='stylesheet' type='text/css'>
+		<!-- scripts -->
+		<script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
+		<script src="js/config.js"></script>
+		<script src="js/game.js"></script>
+		<script src="js/helper.js"></script>
 	</head>
 	<body>
-	
+		<header>
+			<h1>Wilson, the drunk</h1>
+		</header>
+		<section id="game"></section>
+		
+		<footer>&copy; 2013 &#8212; all rights reservered &#8212; robkantor.co.uk</footer>
 	</body>
+	<script type="text/javascript">
+		var game = new Game('#game');
+	</script>
 </html>

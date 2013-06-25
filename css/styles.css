@@ -1,0 +1,29 @@
+body {
+	font-family: 'Noticia Text', serif;
+	font-size: 1em;
+	color: rgba(0,0,0,.8);
+	background-color: rgba(255,255,255,1);
+}
+header {
+	
+}
+footer {
+	font-size: 0.8em;
+	color: rgba(0,0,0,.4);
+}
+h1 {
+	font-family: 'Cherry Swash', cursive;
+	font-size: 2em;
+}
+
+a.button, a.button:visited, a.button:active {
+	text-decoration: none;
+	color: rgba(0,0,0,.5);;
+	-webkit-transition: .5s ease-out;
+	-moz-transition: .5s ease-out;
+	-o-transition: .5s ease-out;
+	transition: .5s ease-out;
+}
+a.button:hover {
+	color: rgba(0,0,0,.8);
+}
