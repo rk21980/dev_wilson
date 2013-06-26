@@ -5,12 +5,16 @@
 }
 body {
 	position: relative;
+	margin-top: 70px;
 }
 
 ul {
 	list-style-type: none;
 }
 
+p {
+	margin-bottom: 0.5em
+}
 header {
 	position: fixed;
 	top: 0;
